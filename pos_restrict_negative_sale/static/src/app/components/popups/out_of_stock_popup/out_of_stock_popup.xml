@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+
+    <t t-name="pos_restrict_negative_sale.OutOfStockPopup">
+        <Dialog
+            size="'md'"
+            header="false"
+            footer="false"
+            withBodyPadding="false"
+            contentClass="'o_pos_oos_dialog'">
+            <div class="o_pos_oos">
+                <div class="o_pos_oos_banner">
+                    <div class="o_pos_oos_banner_glow"/>
+                    <div class="o_pos_oos_mark" aria-hidden="true">
+                        <span class="o_pos_oos_mark_box"/>
+                        <span class="o_pos_oos_mark_slash"/>
+                    </div>
+                    <p class="o_pos_oos_kicker" t-out="this.title"/>
+                    <h2 class="o_pos_oos_title" t-out="this.lead"/>
+                    <p class="o_pos_oos_detail" t-out="this.detail"/>
+                </div>
+                <div class="o_pos_oos_body">
+                    <div class="o_pos_oos_product">
+                        <div class="o_pos_oos_photo">
+                            <img t-if="this.imageUrl" t-att-src="this.imageUrl" t-att-alt="this.productName"/>
+                            <span t-else="" t-out="this.initial"/>
+                        </div>
+                        <div class="o_pos_oos_product_text">
+                            <span class="o_pos_oos_label">Product</span>
+                            <strong t-out="this.productName"/>
+                        </div>
+                    </div>
+                    <div class="o_pos_oos_stats">
+                        <div t-attf-class="o_pos_oos_stat {{ this.outOfStock ? 'is-empty' : 'is-short' }}">
+                            <span>In stock</span>
+                            <strong t-out="this.qtyLabel(this.props.freeQty)"/>
+                        </div>
+                        <div class="o_pos_oos_stat" t-if="this.showOnTicket">
+                            <span>On this ticket</span>
+                            <strong t-out="this.qtyLabel(this.props.onTicket)"/>
+                        </div>
+                        <div class="o_pos_oos_stat">
+                            <span>You asked for</span>
+                            <strong t-out="this.qtyLabel(this.props.requested)"/>
+                        </div>
+                    </div>
+                    <button type="button" class="o_pos_oos_button" t-on-click="this.confirm">
+                        Got it
+                    </button>
+                </div>
+            </div>
+        </Dialog>
+    </t>
+
+</templates>

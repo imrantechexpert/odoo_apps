@@ -1,0 +1,1100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="vision_sph_m2000" model="pos.vision.value">
+            <field name="name">-20.00</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-2000</field>
+        </record>
+        <record id="vision_sph_m1975" model="pos.vision.value">
+            <field name="name">-19.75</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-1975</field>
+        </record>
+        <record id="vision_sph_m1950" model="pos.vision.value">
+            <field name="name">-19.50</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-1950</field>
+        </record>
+        <record id="vision_sph_m1925" model="pos.vision.value">
+            <field name="name">-19.25</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-1925</field>
+        </record>
+        <record id="vision_sph_m1900" model="pos.vision.value">
+            <field name="name">-19.00</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-1900</field>
+        </record>
+        <record id="vision_sph_m1875" model="pos.vision.value">
+            <field name="name">-18.75</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-1875</field>
+        </record>
+        <record id="vision_sph_m1850" model="pos.vision.value">
+            <field name="name">-18.50</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-1850</field>
+        </record>
+        <record id="vision_sph_m1825" model="pos.vision.value">
+            <field name="name">-18.25</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-1825</field>
+        </record>
+        <record id="vision_sph_m1800" model="pos.vision.value">
+            <field name="name">-18.00</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-1800</field>
+        </record>
+        <record id="vision_sph_m1775" model="pos.vision.value">
+            <field name="name">-17.75</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-1775</field>
+        </record>
+        <record id="vision_sph_m1750" model="pos.vision.value">
+            <field name="name">-17.50</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-1750</field>
+        </record>
+        <record id="vision_sph_m1725" model="pos.vision.value">
+            <field name="name">-17.25</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-1725</field>
+        </record>
+        <record id="vision_sph_m1700" model="pos.vision.value">
+            <field name="name">-17.00</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-1700</field>
+        </record>
+        <record id="vision_sph_m1675" model="pos.vision.value">
+            <field name="name">-16.75</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-1675</field>
+        </record>
+        <record id="vision_sph_m1650" model="pos.vision.value">
+            <field name="name">-16.50</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-1650</field>
+        </record>
+        <record id="vision_sph_m1625" model="pos.vision.value">
+            <field name="name">-16.25</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-1625</field>
+        </record>
+        <record id="vision_sph_m1600" model="pos.vision.value">
+            <field name="name">-16.00</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-1600</field>
+        </record>
+        <record id="vision_sph_m1575" model="pos.vision.value">
+            <field name="name">-15.75</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-1575</field>
+        </record>
+        <record id="vision_sph_m1550" model="pos.vision.value">
+            <field name="name">-15.50</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-1550</field>
+        </record>
+        <record id="vision_sph_m1525" model="pos.vision.value">
+            <field name="name">-15.25</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-1525</field>
+        </record>
+        <record id="vision_sph_m1500" model="pos.vision.value">
+            <field name="name">-15.00</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-1500</field>
+        </record>
+        <record id="vision_sph_m1475" model="pos.vision.value">
+            <field name="name">-14.75</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-1475</field>
+        </record>
+        <record id="vision_sph_m1450" model="pos.vision.value">
+            <field name="name">-14.50</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-1450</field>
+        </record>
+        <record id="vision_sph_m1425" model="pos.vision.value">
+            <field name="name">-14.25</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-1425</field>
+        </record>
+        <record id="vision_sph_m1400" model="pos.vision.value">
+            <field name="name">-14.00</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-1400</field>
+        </record>
+        <record id="vision_sph_m1375" model="pos.vision.value">
+            <field name="name">-13.75</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-1375</field>
+        </record>
+        <record id="vision_sph_m1350" model="pos.vision.value">
+            <field name="name">-13.50</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-1350</field>
+        </record>
+        <record id="vision_sph_m1325" model="pos.vision.value">
+            <field name="name">-13.25</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-1325</field>
+        </record>
+        <record id="vision_sph_m1300" model="pos.vision.value">
+            <field name="name">-13.00</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-1300</field>
+        </record>
+        <record id="vision_sph_m1275" model="pos.vision.value">
+            <field name="name">-12.75</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-1275</field>
+        </record>
+        <record id="vision_sph_m1250" model="pos.vision.value">
+            <field name="name">-12.50</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-1250</field>
+        </record>
+        <record id="vision_sph_m1225" model="pos.vision.value">
+            <field name="name">-12.25</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-1225</field>
+        </record>
+        <record id="vision_sph_m1200" model="pos.vision.value">
+            <field name="name">-12.00</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-1200</field>
+        </record>
+        <record id="vision_sph_m1175" model="pos.vision.value">
+            <field name="name">-11.75</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-1175</field>
+        </record>
+        <record id="vision_sph_m1150" model="pos.vision.value">
+            <field name="name">-11.50</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-1150</field>
+        </record>
+        <record id="vision_sph_m1125" model="pos.vision.value">
+            <field name="name">-11.25</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-1125</field>
+        </record>
+        <record id="vision_sph_m1100" model="pos.vision.value">
+            <field name="name">-11.00</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-1100</field>
+        </record>
+        <record id="vision_sph_m1075" model="pos.vision.value">
+            <field name="name">-10.75</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-1075</field>
+        </record>
+        <record id="vision_sph_m1050" model="pos.vision.value">
+            <field name="name">-10.50</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-1050</field>
+        </record>
+        <record id="vision_sph_m1025" model="pos.vision.value">
+            <field name="name">-10.25</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-1025</field>
+        </record>
+        <record id="vision_sph_m1000" model="pos.vision.value">
+            <field name="name">-10.00</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-1000</field>
+        </record>
+        <record id="vision_sph_m975" model="pos.vision.value">
+            <field name="name">-9.75</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-975</field>
+        </record>
+        <record id="vision_sph_m950" model="pos.vision.value">
+            <field name="name">-9.50</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-950</field>
+        </record>
+        <record id="vision_sph_m925" model="pos.vision.value">
+            <field name="name">-9.25</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-925</field>
+        </record>
+        <record id="vision_sph_m900" model="pos.vision.value">
+            <field name="name">-9.00</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-900</field>
+        </record>
+        <record id="vision_sph_m875" model="pos.vision.value">
+            <field name="name">-8.75</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-875</field>
+        </record>
+        <record id="vision_sph_m850" model="pos.vision.value">
+            <field name="name">-8.50</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-850</field>
+        </record>
+        <record id="vision_sph_m825" model="pos.vision.value">
+            <field name="name">-8.25</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-825</field>
+        </record>
+        <record id="vision_sph_m800" model="pos.vision.value">
+            <field name="name">-8.00</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-800</field>
+        </record>
+        <record id="vision_sph_m775" model="pos.vision.value">
+            <field name="name">-7.75</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-775</field>
+        </record>
+        <record id="vision_sph_m750" model="pos.vision.value">
+            <field name="name">-7.50</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-750</field>
+        </record>
+        <record id="vision_sph_m725" model="pos.vision.value">
+            <field name="name">-7.25</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-725</field>
+        </record>
+        <record id="vision_sph_m700" model="pos.vision.value">
+            <field name="name">-7.00</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-700</field>
+        </record>
+        <record id="vision_sph_m675" model="pos.vision.value">
+            <field name="name">-6.75</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-675</field>
+        </record>
+        <record id="vision_sph_m650" model="pos.vision.value">
+            <field name="name">-6.50</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-650</field>
+        </record>
+        <record id="vision_sph_m625" model="pos.vision.value">
+            <field name="name">-6.25</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-625</field>
+        </record>
+        <record id="vision_sph_m600" model="pos.vision.value">
+            <field name="name">-6.00</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-600</field>
+        </record>
+        <record id="vision_sph_m575" model="pos.vision.value">
+            <field name="name">-5.75</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-575</field>
+        </record>
+        <record id="vision_sph_m550" model="pos.vision.value">
+            <field name="name">-5.50</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-550</field>
+        </record>
+        <record id="vision_sph_m525" model="pos.vision.value">
+            <field name="name">-5.25</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-525</field>
+        </record>
+        <record id="vision_sph_m500" model="pos.vision.value">
+            <field name="name">-5.00</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-500</field>
+        </record>
+        <record id="vision_sph_m475" model="pos.vision.value">
+            <field name="name">-4.75</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-475</field>
+        </record>
+        <record id="vision_sph_m450" model="pos.vision.value">
+            <field name="name">-4.50</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-450</field>
+        </record>
+        <record id="vision_sph_m425" model="pos.vision.value">
+            <field name="name">-4.25</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-425</field>
+        </record>
+        <record id="vision_sph_m400" model="pos.vision.value">
+            <field name="name">-4.00</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-400</field>
+        </record>
+        <record id="vision_sph_m375" model="pos.vision.value">
+            <field name="name">-3.75</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-375</field>
+        </record>
+        <record id="vision_sph_m350" model="pos.vision.value">
+            <field name="name">-3.50</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-350</field>
+        </record>
+        <record id="vision_sph_m325" model="pos.vision.value">
+            <field name="name">-3.25</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-325</field>
+        </record>
+        <record id="vision_sph_m300" model="pos.vision.value">
+            <field name="name">-3.00</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-300</field>
+        </record>
+        <record id="vision_sph_m275" model="pos.vision.value">
+            <field name="name">-2.75</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-275</field>
+        </record>
+        <record id="vision_sph_m250" model="pos.vision.value">
+            <field name="name">-2.50</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-250</field>
+        </record>
+        <record id="vision_sph_m225" model="pos.vision.value">
+            <field name="name">-2.25</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-225</field>
+        </record>
+        <record id="vision_sph_m200" model="pos.vision.value">
+            <field name="name">-2.00</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-200</field>
+        </record>
+        <record id="vision_sph_m175" model="pos.vision.value">
+            <field name="name">-1.75</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-175</field>
+        </record>
+        <record id="vision_sph_m150" model="pos.vision.value">
+            <field name="name">-1.50</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-150</field>
+        </record>
+        <record id="vision_sph_m125" model="pos.vision.value">
+            <field name="name">-1.25</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-125</field>
+        </record>
+        <record id="vision_sph_m100" model="pos.vision.value">
+            <field name="name">-1.00</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-100</field>
+        </record>
+        <record id="vision_sph_m075" model="pos.vision.value">
+            <field name="name">-0.75</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-75</field>
+        </record>
+        <record id="vision_sph_m050" model="pos.vision.value">
+            <field name="name">-0.50</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-50</field>
+        </record>
+        <record id="vision_sph_m025" model="pos.vision.value">
+            <field name="name">-0.25</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">-25</field>
+        </record>
+        <record id="vision_sph_z000" model="pos.vision.value">
+            <field name="name">0.00</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">0</field>
+        </record>
+        <record id="vision_sph_p025" model="pos.vision.value">
+            <field name="name">+0.25</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">25</field>
+        </record>
+        <record id="vision_sph_p050" model="pos.vision.value">
+            <field name="name">+0.50</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">50</field>
+        </record>
+        <record id="vision_sph_p075" model="pos.vision.value">
+            <field name="name">+0.75</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">75</field>
+        </record>
+        <record id="vision_sph_p100" model="pos.vision.value">
+            <field name="name">+1.00</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">100</field>
+        </record>
+        <record id="vision_sph_p125" model="pos.vision.value">
+            <field name="name">+1.25</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">125</field>
+        </record>
+        <record id="vision_sph_p150" model="pos.vision.value">
+            <field name="name">+1.50</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">150</field>
+        </record>
+        <record id="vision_sph_p175" model="pos.vision.value">
+            <field name="name">+1.75</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">175</field>
+        </record>
+        <record id="vision_sph_p200" model="pos.vision.value">
+            <field name="name">+2.00</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">200</field>
+        </record>
+        <record id="vision_sph_p225" model="pos.vision.value">
+            <field name="name">+2.25</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">225</field>
+        </record>
+        <record id="vision_sph_p250" model="pos.vision.value">
+            <field name="name">+2.50</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">250</field>
+        </record>
+        <record id="vision_sph_p275" model="pos.vision.value">
+            <field name="name">+2.75</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">275</field>
+        </record>
+        <record id="vision_sph_p300" model="pos.vision.value">
+            <field name="name">+3.00</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">300</field>
+        </record>
+        <record id="vision_sph_p325" model="pos.vision.value">
+            <field name="name">+3.25</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">325</field>
+        </record>
+        <record id="vision_sph_p350" model="pos.vision.value">
+            <field name="name">+3.50</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">350</field>
+        </record>
+        <record id="vision_sph_p375" model="pos.vision.value">
+            <field name="name">+3.75</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">375</field>
+        </record>
+        <record id="vision_sph_p400" model="pos.vision.value">
+            <field name="name">+4.00</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">400</field>
+        </record>
+        <record id="vision_sph_p425" model="pos.vision.value">
+            <field name="name">+4.25</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">425</field>
+        </record>
+        <record id="vision_sph_p450" model="pos.vision.value">
+            <field name="name">+4.50</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">450</field>
+        </record>
+        <record id="vision_sph_p475" model="pos.vision.value">
+            <field name="name">+4.75</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">475</field>
+        </record>
+        <record id="vision_sph_p500" model="pos.vision.value">
+            <field name="name">+5.00</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">500</field>
+        </record>
+        <record id="vision_sph_p525" model="pos.vision.value">
+            <field name="name">+5.25</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">525</field>
+        </record>
+        <record id="vision_sph_p550" model="pos.vision.value">
+            <field name="name">+5.50</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">550</field>
+        </record>
+        <record id="vision_sph_p575" model="pos.vision.value">
+            <field name="name">+5.75</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">575</field>
+        </record>
+        <record id="vision_sph_p600" model="pos.vision.value">
+            <field name="name">+6.00</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">600</field>
+        </record>
+        <record id="vision_sph_p625" model="pos.vision.value">
+            <field name="name">+6.25</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">625</field>
+        </record>
+        <record id="vision_sph_p650" model="pos.vision.value">
+            <field name="name">+6.50</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">650</field>
+        </record>
+        <record id="vision_sph_p675" model="pos.vision.value">
+            <field name="name">+6.75</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">675</field>
+        </record>
+        <record id="vision_sph_p700" model="pos.vision.value">
+            <field name="name">+7.00</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">700</field>
+        </record>
+        <record id="vision_sph_p725" model="pos.vision.value">
+            <field name="name">+7.25</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">725</field>
+        </record>
+        <record id="vision_sph_p750" model="pos.vision.value">
+            <field name="name">+7.50</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">750</field>
+        </record>
+        <record id="vision_sph_p775" model="pos.vision.value">
+            <field name="name">+7.75</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">775</field>
+        </record>
+        <record id="vision_sph_p800" model="pos.vision.value">
+            <field name="name">+8.00</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">800</field>
+        </record>
+        <record id="vision_sph_p825" model="pos.vision.value">
+            <field name="name">+8.25</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">825</field>
+        </record>
+        <record id="vision_sph_p850" model="pos.vision.value">
+            <field name="name">+8.50</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">850</field>
+        </record>
+        <record id="vision_sph_p875" model="pos.vision.value">
+            <field name="name">+8.75</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">875</field>
+        </record>
+        <record id="vision_sph_p900" model="pos.vision.value">
+            <field name="name">+9.00</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">900</field>
+        </record>
+        <record id="vision_sph_p925" model="pos.vision.value">
+            <field name="name">+9.25</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">925</field>
+        </record>
+        <record id="vision_sph_p950" model="pos.vision.value">
+            <field name="name">+9.50</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">950</field>
+        </record>
+        <record id="vision_sph_p975" model="pos.vision.value">
+            <field name="name">+9.75</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">975</field>
+        </record>
+        <record id="vision_sph_p1000" model="pos.vision.value">
+            <field name="name">+10.00</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">1000</field>
+        </record>
+        <record id="vision_sph_p1025" model="pos.vision.value">
+            <field name="name">+10.25</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">1025</field>
+        </record>
+        <record id="vision_sph_p1050" model="pos.vision.value">
+            <field name="name">+10.50</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">1050</field>
+        </record>
+        <record id="vision_sph_p1075" model="pos.vision.value">
+            <field name="name">+10.75</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">1075</field>
+        </record>
+        <record id="vision_sph_p1100" model="pos.vision.value">
+            <field name="name">+11.00</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">1100</field>
+        </record>
+        <record id="vision_sph_p1125" model="pos.vision.value">
+            <field name="name">+11.25</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">1125</field>
+        </record>
+        <record id="vision_sph_p1150" model="pos.vision.value">
+            <field name="name">+11.50</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">1150</field>
+        </record>
+        <record id="vision_sph_p1175" model="pos.vision.value">
+            <field name="name">+11.75</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">1175</field>
+        </record>
+        <record id="vision_sph_p1200" model="pos.vision.value">
+            <field name="name">+12.00</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">1200</field>
+        </record>
+        <record id="vision_sph_p1225" model="pos.vision.value">
+            <field name="name">+12.25</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">1225</field>
+        </record>
+        <record id="vision_sph_p1250" model="pos.vision.value">
+            <field name="name">+12.50</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">1250</field>
+        </record>
+        <record id="vision_sph_p1275" model="pos.vision.value">
+            <field name="name">+12.75</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">1275</field>
+        </record>
+        <record id="vision_sph_p1300" model="pos.vision.value">
+            <field name="name">+13.00</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">1300</field>
+        </record>
+        <record id="vision_sph_p1325" model="pos.vision.value">
+            <field name="name">+13.25</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">1325</field>
+        </record>
+        <record id="vision_sph_p1350" model="pos.vision.value">
+            <field name="name">+13.50</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">1350</field>
+        </record>
+        <record id="vision_sph_p1375" model="pos.vision.value">
+            <field name="name">+13.75</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">1375</field>
+        </record>
+        <record id="vision_sph_p1400" model="pos.vision.value">
+            <field name="name">+14.00</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">1400</field>
+        </record>
+        <record id="vision_sph_p1425" model="pos.vision.value">
+            <field name="name">+14.25</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">1425</field>
+        </record>
+        <record id="vision_sph_p1450" model="pos.vision.value">
+            <field name="name">+14.50</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">1450</field>
+        </record>
+        <record id="vision_sph_p1475" model="pos.vision.value">
+            <field name="name">+14.75</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">1475</field>
+        </record>
+        <record id="vision_sph_p1500" model="pos.vision.value">
+            <field name="name">+15.00</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">1500</field>
+        </record>
+        <record id="vision_sph_p1525" model="pos.vision.value">
+            <field name="name">+15.25</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">1525</field>
+        </record>
+        <record id="vision_sph_p1550" model="pos.vision.value">
+            <field name="name">+15.50</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">1550</field>
+        </record>
+        <record id="vision_sph_p1575" model="pos.vision.value">
+            <field name="name">+15.75</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">1575</field>
+        </record>
+        <record id="vision_sph_p1600" model="pos.vision.value">
+            <field name="name">+16.00</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">1600</field>
+        </record>
+        <record id="vision_sph_p1625" model="pos.vision.value">
+            <field name="name">+16.25</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">1625</field>
+        </record>
+        <record id="vision_sph_p1650" model="pos.vision.value">
+            <field name="name">+16.50</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">1650</field>
+        </record>
+        <record id="vision_sph_p1675" model="pos.vision.value">
+            <field name="name">+16.75</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">1675</field>
+        </record>
+        <record id="vision_sph_p1700" model="pos.vision.value">
+            <field name="name">+17.00</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">1700</field>
+        </record>
+        <record id="vision_sph_p1725" model="pos.vision.value">
+            <field name="name">+17.25</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">1725</field>
+        </record>
+        <record id="vision_sph_p1750" model="pos.vision.value">
+            <field name="name">+17.50</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">1750</field>
+        </record>
+        <record id="vision_sph_p1775" model="pos.vision.value">
+            <field name="name">+17.75</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">1775</field>
+        </record>
+        <record id="vision_sph_p1800" model="pos.vision.value">
+            <field name="name">+18.00</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">1800</field>
+        </record>
+        <record id="vision_sph_p1825" model="pos.vision.value">
+            <field name="name">+18.25</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">1825</field>
+        </record>
+        <record id="vision_sph_p1850" model="pos.vision.value">
+            <field name="name">+18.50</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">1850</field>
+        </record>
+        <record id="vision_sph_p1875" model="pos.vision.value">
+            <field name="name">+18.75</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">1875</field>
+        </record>
+        <record id="vision_sph_p1900" model="pos.vision.value">
+            <field name="name">+19.00</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">1900</field>
+        </record>
+        <record id="vision_sph_p1925" model="pos.vision.value">
+            <field name="name">+19.25</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">1925</field>
+        </record>
+        <record id="vision_sph_p1950" model="pos.vision.value">
+            <field name="name">+19.50</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">1950</field>
+        </record>
+        <record id="vision_sph_p1975" model="pos.vision.value">
+            <field name="name">+19.75</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">1975</field>
+        </record>
+        <record id="vision_sph_p2000" model="pos.vision.value">
+            <field name="name">+20.00</field>
+            <field name="value_type">sph</field>
+            <field name="sequence">2000</field>
+        </record>
+        <record id="vision_cyl_m600" model="pos.vision.value">
+            <field name="name">-6.00</field>
+            <field name="value_type">cyl</field>
+            <field name="sequence">-600</field>
+        </record>
+        <record id="vision_cyl_m575" model="pos.vision.value">
+            <field name="name">-5.75</field>
+            <field name="value_type">cyl</field>
+            <field name="sequence">-575</field>
+        </record>
+        <record id="vision_cyl_m550" model="pos.vision.value">
+            <field name="name">-5.50</field>
+            <field name="value_type">cyl</field>
+            <field name="sequence">-550</field>
+        </record>
+        <record id="vision_cyl_m525" model="pos.vision.value">
+            <field name="name">-5.25</field>
+            <field name="value_type">cyl</field>
+            <field name="sequence">-525</field>
+        </record>
+        <record id="vision_cyl_m500" model="pos.vision.value">
+            <field name="name">-5.00</field>
+            <field name="value_type">cyl</field>
+            <field name="sequence">-500</field>
+        </record>
+        <record id="vision_cyl_m475" model="pos.vision.value">
+            <field name="name">-4.75</field>
+            <field name="value_type">cyl</field>
+            <field name="sequence">-475</field>
+        </record>
+        <record id="vision_cyl_m450" model="pos.vision.value">
+            <field name="name">-4.50</field>
+            <field name="value_type">cyl</field>
+            <field name="sequence">-450</field>
+        </record>
+        <record id="vision_cyl_m425" model="pos.vision.value">
+            <field name="name">-4.25</field>
+            <field name="value_type">cyl</field>
+            <field name="sequence">-425</field>
+        </record>
+        <record id="vision_cyl_m400" model="pos.vision.value">
+            <field name="name">-4.00</field>
+            <field name="value_type">cyl</field>
+            <field name="sequence">-400</field>
+        </record>
+        <record id="vision_cyl_m375" model="pos.vision.value">
+            <field name="name">-3.75</field>
+            <field name="value_type">cyl</field>
+            <field name="sequence">-375</field>
+        </record>
+        <record id="vision_cyl_m350" model="pos.vision.value">
+            <field name="name">-3.50</field>
+            <field name="value_type">cyl</field>
+            <field name="sequence">-350</field>
+        </record>
+        <record id="vision_cyl_m325" model="pos.vision.value">
+            <field name="name">-3.25</field>
+            <field name="value_type">cyl</field>
+            <field name="sequence">-325</field>
+        </record>
+        <record id="vision_cyl_m300" model="pos.vision.value">
+            <field name="name">-3.00</field>
+            <field name="value_type">cyl</field>
+            <field name="sequence">-300</field>
+        </record>
+        <record id="vision_cyl_m275" model="pos.vision.value">
+            <field name="name">-2.75</field>
+            <field name="value_type">cyl</field>
+            <field name="sequence">-275</field>
+        </record>
+        <record id="vision_cyl_m250" model="pos.vision.value">
+            <field name="name">-2.50</field>
+            <field name="value_type">cyl</field>
+            <field name="sequence">-250</field>
+        </record>
+        <record id="vision_cyl_m225" model="pos.vision.value">
+            <field name="name">-2.25</field>
+            <field name="value_type">cyl</field>
+            <field name="sequence">-225</field>
+        </record>
+        <record id="vision_cyl_m200" model="pos.vision.value">
+            <field name="name">-2.00</field>
+            <field name="value_type">cyl</field>
+            <field name="sequence">-200</field>
+        </record>
+        <record id="vision_cyl_m175" model="pos.vision.value">
+            <field name="name">-1.75</field>
+            <field name="value_type">cyl</field>
+            <field name="sequence">-175</field>
+        </record>
+        <record id="vision_cyl_m150" model="pos.vision.value">
+            <field name="name">-1.50</field>
+            <field name="value_type">cyl</field>
+            <field name="sequence">-150</field>
+        </record>
+        <record id="vision_cyl_m125" model="pos.vision.value">
+            <field name="name">-1.25</field>
+            <field name="value_type">cyl</field>
+            <field name="sequence">-125</field>
+        </record>
+        <record id="vision_cyl_m100" model="pos.vision.value">
+            <field name="name">-1.00</field>
+            <field name="value_type">cyl</field>
+            <field name="sequence">-100</field>
+        </record>
+        <record id="vision_cyl_m075" model="pos.vision.value">
+            <field name="name">-0.75</field>
+            <field name="value_type">cyl</field>
+            <field name="sequence">-75</field>
+        </record>
+        <record id="vision_cyl_m050" model="pos.vision.value">
+            <field name="name">-0.50</field>
+            <field name="value_type">cyl</field>
+            <field name="sequence">-50</field>
+        </record>
+        <record id="vision_cyl_m025" model="pos.vision.value">
+            <field name="name">-0.25</field>
+            <field name="value_type">cyl</field>
+            <field name="sequence">-25</field>
+        </record>
+        <record id="vision_cyl_z000" model="pos.vision.value">
+            <field name="name">0.00</field>
+            <field name="value_type">cyl</field>
+            <field name="sequence">0</field>
+        </record>
+        <record id="vision_cyl_p025" model="pos.vision.value">
+            <field name="name">+0.25</field>
+            <field name="value_type">cyl</field>
+            <field name="sequence">25</field>
+        </record>
+        <record id="vision_cyl_p050" model="pos.vision.value">
+            <field name="name">+0.50</field>
+            <field name="value_type">cyl</field>
+            <field name="sequence">50</field>
+        </record>
+        <record id="vision_cyl_p075" model="pos.vision.value">
+            <field name="name">+0.75</field>
+            <field name="value_type">cyl</field>
+            <field name="sequence">75</field>
+        </record>
+        <record id="vision_cyl_p100" model="pos.vision.value">
+            <field name="name">+1.00</field>
+            <field name="value_type">cyl</field>
+            <field name="sequence">100</field>
+        </record>
+        <record id="vision_cyl_p125" model="pos.vision.value">
+            <field name="name">+1.25</field>
+            <field name="value_type">cyl</field>
+            <field name="sequence">125</field>
+        </record>
+        <record id="vision_cyl_p150" model="pos.vision.value">
+            <field name="name">+1.50</field>
+            <field name="value_type">cyl</field>
+            <field name="sequence">150</field>
+        </record>
+        <record id="vision_cyl_p175" model="pos.vision.value">
+            <field name="name">+1.75</field>
+            <field name="value_type">cyl</field>
+            <field name="sequence">175</field>
+        </record>
+        <record id="vision_cyl_p200" model="pos.vision.value">
+            <field name="name">+2.00</field>
+            <field name="value_type">cyl</field>
+            <field name="sequence">200</field>
+        </record>
+        <record id="vision_cyl_p225" model="pos.vision.value">
+            <field name="name">+2.25</field>
+            <field name="value_type">cyl</field>
+            <field name="sequence">225</field>
+        </record>
+        <record id="vision_cyl_p250" model="pos.vision.value">
+            <field name="name">+2.50</field>
+            <field name="value_type">cyl</field>
+            <field name="sequence">250</field>
+        </record>
+        <record id="vision_cyl_p275" model="pos.vision.value">
+            <field name="name">+2.75</field>
+            <field name="value_type">cyl</field>
+            <field name="sequence">275</field>
+        </record>
+        <record id="vision_cyl_p300" model="pos.vision.value">
+            <field name="name">+3.00</field>
+            <field name="value_type">cyl</field>
+            <field name="sequence">300</field>
+        </record>
+        <record id="vision_cyl_p325" model="pos.vision.value">
+            <field name="name">+3.25</field>
+            <field name="value_type">cyl</field>
+            <field name="sequence">325</field>
+        </record>
+        <record id="vision_cyl_p350" model="pos.vision.value">
+            <field name="name">+3.50</field>
+            <field name="value_type">cyl</field>
+            <field name="sequence">350</field>
+        </record>
+        <record id="vision_cyl_p375" model="pos.vision.value">
+            <field name="name">+3.75</field>
+            <field name="value_type">cyl</field>
+            <field name="sequence">375</field>
+        </record>
+        <record id="vision_cyl_p400" model="pos.vision.value">
+            <field name="name">+4.00</field>
+            <field name="value_type">cyl</field>
+            <field name="sequence">400</field>
+        </record>
+        <record id="vision_cyl_p425" model="pos.vision.value">
+            <field name="name">+4.25</field>
+            <field name="value_type">cyl</field>
+            <field name="sequence">425</field>
+        </record>
+        <record id="vision_cyl_p450" model="pos.vision.value">
+            <field name="name">+4.50</field>
+            <field name="value_type">cyl</field>
+            <field name="sequence">450</field>
+        </record>
+        <record id="vision_cyl_p475" model="pos.vision.value">
+            <field name="name">+4.75</field>
+            <field name="value_type">cyl</field>
+            <field name="sequence">475</field>
+        </record>
+        <record id="vision_cyl_p500" model="pos.vision.value">
+            <field name="name">+5.00</field>
+            <field name="value_type">cyl</field>
+            <field name="sequence">500</field>
+        </record>
+        <record id="vision_cyl_p525" model="pos.vision.value">
+            <field name="name">+5.25</field>
+            <field name="value_type">cyl</field>
+            <field name="sequence">525</field>
+        </record>
+        <record id="vision_cyl_p550" model="pos.vision.value">
+            <field name="name">+5.50</field>
+            <field name="value_type">cyl</field>
+            <field name="sequence">550</field>
+        </record>
+        <record id="vision_cyl_p575" model="pos.vision.value">
+            <field name="name">+5.75</field>
+            <field name="value_type">cyl</field>
+            <field name="sequence">575</field>
+        </record>
+        <record id="vision_cyl_p600" model="pos.vision.value">
+            <field name="name">+6.00</field>
+            <field name="value_type">cyl</field>
+            <field name="sequence">600</field>
+        </record>
+        <record id="vision_va_1" model="pos.vision.value">
+            <field name="name">6/6</field>
+            <field name="value_type">va</field>
+            <field name="sequence">10</field>
+        </record>
+        <record id="vision_va_2" model="pos.vision.value">
+            <field name="name">6/9</field>
+            <field name="value_type">va</field>
+            <field name="sequence">20</field>
+        </record>
+        <record id="vision_va_3" model="pos.vision.value">
+            <field name="name">6/12</field>
+            <field name="value_type">va</field>
+            <field name="sequence">30</field>
+        </record>
+        <record id="vision_va_4" model="pos.vision.value">
+            <field name="name">6/18</field>
+            <field name="value_type">va</field>
+            <field name="sequence">40</field>
+        </record>
+        <record id="vision_va_5" model="pos.vision.value">
+            <field name="name">6/24</field>
+            <field name="value_type">va</field>
+            <field name="sequence">50</field>
+        </record>
+        <record id="vision_va_6" model="pos.vision.value">
+            <field name="name">6/36</field>
+            <field name="value_type">va</field>
+            <field name="sequence">60</field>
+        </record>
+        <record id="vision_va_7" model="pos.vision.value">
+            <field name="name">6/60</field>
+            <field name="value_type">va</field>
+            <field name="sequence">70</field>
+        </record>
+        <record id="vision_va_8" model="pos.vision.value">
+            <field name="name">CF</field>
+            <field name="value_type">va</field>
+            <field name="sequence">80</field>
+        </record>
+        <record id="vision_va_9" model="pos.vision.value">
+            <field name="name">HM</field>
+            <field name="value_type">va</field>
+            <field name="sequence">90</field>
+        </record>
+    </data>
+</odoo>

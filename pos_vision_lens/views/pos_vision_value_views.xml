@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_pos_vision_value_list" model="ir.ui.view">
+        <field name="name">pos.vision.value.list</field>
+        <field name="model">pos.vision.value</field>
+        <field name="arch" type="xml">
+            <list string="Prescription Values" editable="bottom">
+                <field name="sequence" widget="handle"/>
+                <field name="value_type"/>
+                <field name="name"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_pos_vision_value_search" model="ir.ui.view">
+        <field name="name">pos.vision.value.search</field>
+        <field name="model">pos.vision.value</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="name"/>
+                <filter name="filter_sph" string="SPH" domain="[('value_type', '=', 'sph')]"/>
+                <filter name="filter_cyl" string="CYL" domain="[('value_type', '=', 'cyl')]"/>
+                <filter name="filter_va" string="V.A." domain="[('value_type', '=', 'va')]"/>
+                <filter name="group_value_type" string="Type" context="{'group_by': 'value_type'}"/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_pos_vision_value" model="ir.actions.act_window">
+        <field name="name">Prescription Values</field>
+        <field name="res_model">pos.vision.value</field>
+        <field name="view_mode">list</field>
+        <field name="context">{'search_default_group_value_type': 1}</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Add a prescription value
+            </p>
+            <p>
+                These values are the SPH, CYL, and V.A. choices on the POS prescription card.
+                Add a line to offer a new choice, or delete one to remove it.
+            </p>
+        </field>
+    </record>
+
+    <menuitem id="menu_pos_vision_value"
+        name="Prescription Values"
+        parent="point_of_sale.menu_point_config_product"
+        action="action_pos_vision_value"
+        sequence="12"
+        groups="point_of_sale.group_pos_manager"/>
+</odoo>

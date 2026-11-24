@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="pos_order_line_vision_form" model="ir.ui.view">
+        <field name="name">pos.order.line.vision.form</field>
+        <field name="model">pos.order.line</field>
+        <field name="priority">32</field>
+        <field name="arch" type="xml">
+            <form string="Vision Prescription" create="0" delete="0">
+                <sheet>
+                    <field name="order_state" invisible="1"/>
+                    <field name="is_vision_lens" invisible="1"/>
+                    <div class="o_vision_prescription_card">
+                        <div class="o_vision_card_product">
+                            <field name="full_product_name" readonly="1" class="fw-bold"/>
+                        </div>
+                        <div class="o_vision_card_eyes">
+                            <div class="o_vision_eye_box">
+                                <div class="o_vision_eye_title">RIGHT EYE</div>
+                                <table class="table table-sm table-bordered bg-white mb-0">
+                                    <thead>
+                                        <tr>
+                                            <th>SPH</th>
+                                            <th>CYL</th>
+                                            <th>AXIS</th>
+                                            <th>V.A.</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><field name="vision_right_sph" nolabel="1" readonly="order_state != 'draft'" placeholder="-2.50"/></td>
+                                            <td><field name="vision_right_cyl" nolabel="1" readonly="order_state != 'draft'" placeholder="1.75"/></td>
+                                            <td><field name="vision_right_axis" nolabel="1" readonly="order_state != 'draft'" placeholder="25"/></td>
+                                            <td><field name="vision_right_va" nolabel="1" readonly="order_state != 'draft'" placeholder="6/6"/></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="o_vision_eye_box">
+                                <div class="o_vision_eye_title">LEFT EYE</div>
+                                <table class="table table-sm table-bordered bg-white mb-0">
+                                    <thead>
+                                        <tr>
+                                            <th>SPH</th>
+                                            <th>CYL</th>
+                                            <th>AXIS</th>
+                                            <th>V.A.</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><field name="vision_left_sph" nolabel="1" readonly="order_state != 'draft'" placeholder="-3.50"/></td>
+                                            <td><field name="vision_left_cyl" nolabel="1" readonly="order_state != 'draft'" placeholder="1.50"/></td>
+                                            <td><field name="vision_left_axis" nolabel="1" readonly="order_state != 'draft'" placeholder="150"/></td>
+                                            <td><field name="vision_left_va" nolabel="1" readonly="order_state != 'draft'" placeholder="6/6"/></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="o_vision_card_footer">
+                            <div>
+                                <label for="vision_signature" string="Signature"/>
+                                <field name="vision_signature" widget="image" nolabel="1" readonly="order_state != 'draft'"/>
+                            </div>
+                            <div>
+                                <label for="vision_advise" string="Advise"/>
+                                <field name="vision_advise" nolabel="1" readonly="order_state != 'draft'" placeholder="Advise"/>
+                            </div>
+                        </div>
+                    </div>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_pos_pos_form_vision_lens" model="ir.ui.view">
+        <field name="name">pos.order.form.vision.lens</field>
+        <field name="model">pos.order</field>
+        <field name="inherit_id" ref="point_of_sale.view_pos_pos_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='lines']/list/field[@name='product_id']" position="after">
+                <field name="is_vision_lens" column_invisible="True"/>
+                <field name="vision_summary" string="Prescription" optional="show" readonly="1"/>
+                <button name="action_open_vision_prescription"
+                        type="object"
+                        string="Prescription"
+                        title="Open the vision prescription card"
+                        invisible="not is_vision_lens or not id"
+                        class="btn-link"/>
+            </xpath>
+            <xpath expr="//page[@name='products']" position="after">
+                <page string="Prescriptions" name="vision_prescriptions" invisible="not vision_cards_html">
+                    <field name="vision_cards_html" nolabel="1" widget="html" readonly="1"/>
+                </page>
+            </xpath>
+        </field>
+    </record>
+</odoo>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-name="pos_vision_lens.ControlButtons" t-inherit="point_of_sale.ControlButtons" t-inherit-mode="extension">
+        <xpath expr="//button[hasclass('more-btn')]" position="before">
+            <t t-if="this.visionLensLine" t-call="point_of_sale.controlButton"
+                icon="'visibility'"
+                btnText.translate="Prescription"
+                btnClasses="'btn-primary o_vision_prescription_button '"
+                onClick="() => this.openVisionPrescription()"/>
+        </xpath>
+        <xpath expr="//t[@t-if='this.props.showRemainingButtons']/div/t[@name='o_pricelist_button']" position="before">
+            <t t-if="this.visionLensLine" t-call="point_of_sale.controlButton"
+                icon="'visibility'"
+                btnText.translate="Prescription"
+                btnClasses="'btn-primary o_vision_prescription_button '"
+                onClick="() => this.openVisionPrescription()"/>
+        </xpath>
+    </t>
+</templates>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+<!--        <template id="pos_vision_lens.pos_orderline_receipt_information" inherit_id="point_of_sale.pos_orderline_receipt_information">-->
+<!--            <div name="extra-info" position="before">-->
+<!--                <div t-if="line.get('vision_right_sph') or line.get('vision_right_cyl') or line.get('vision_right_axis') or line.get('vision_left_sph') or line.get('vision_left_cyl') or line.get('vision_left_axis') or line.get('vision_advise')" class="text-small">-->
+<!--                    <div t-if="line.get('vision_right_sph') or line.get('vision_right_cyl') or line.get('vision_right_axis') or line.get('vision_right_va')">-->
+<!--                        R-->
+<!--                        <t t-if="line.get('vision_right_sph')"> SPH <t t-out="line['vision_right_sph']"/></t>-->
+<!--                        <t t-if="line.get('vision_right_cyl')"> CYL <t t-out="line['vision_right_cyl']"/></t>-->
+<!--                        <t t-if="line.get('vision_right_axis')"> AX <t t-out="line['vision_right_axis']"/></t>-->
+<!--                        <t t-if="line.get('vision_right_va')"> VA <t t-out="line['vision_right_va']"/></t>-->
+<!--                    </div>-->
+<!--                    <div t-if="line.get('vision_left_sph') or line.get('vision_left_cyl') or line.get('vision_left_axis') or line.get('vision_left_va')">-->
+<!--                        L-->
+<!--                        <t t-if="line.get('vision_left_sph')"> SPH <t t-out="line['vision_left_sph']"/></t>-->
+<!--                        <t t-if="line.get('vision_left_cyl')"> CYL <t t-out="line['vision_left_cyl']"/></t>-->
+<!--                        <t t-if="line.get('vision_left_axis')"> AX <t t-out="line['vision_left_axis']"/></t>-->
+<!--                        <t t-if="line.get('vision_left_va')"> VA <t t-out="line['vision_left_va']"/></t>-->
+<!--                    </div>-->
+<!--                    <div t-if="line.get('vision_advise')">Advise: <t t-out="line['vision_advise']"/></div>-->
+<!--                    <div t-if="line.get('vision_signature')">-->
+<!--                        <img t-att-src="'data:image/png;base64,%s' % line['vision_signature']" alt="Signature" style="max-height:42px;"/>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </template>-->
+
+        <template id="pos_vision_lens.pos_order_receipt_header" inherit_id="point_of_sale.pos_order_receipt_header">
+            <xpath expr="//div[@name='logo']" position="replace">
+                <table class="w-100 mb-2" name="logo">
+                    <tbody>
+                        <tr>
+                            <td t-if="image.get('logo')" class="top" style="width: 130px;">
+                                <img t-att-src="image['logo']" alt="Logo" style="width: 120px;"/>
+                            </td>
+                            <td class="top text-center">
+                                <div class="text-bold text-large" t-out="company.get('name')"/>
+                                <div t-if="config.get('receipt_address')" class="text-small" t-out="config['receipt_address']"/>
+                                <div t-if="config.get('phone')" class="text-small" t-out="config['phone']"/>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </xpath>
+            <xpath expr="//div[@name='ticket_reference']/.." position="replace">
+                <div class="w-100 text-start mt-2" name="receipt_datetime">
+                    <div>Order: <t t-out="order['pos_reference']"/></div>
+                    <div t-out="extra_data['formated_date_order']"/>
+                </div>
+            </xpath>
+            <xpath expr="//div[@name='cashier_name']" position="replace"/>
+            <xpath expr="//hr" position="replace"/>
+            <xpath expr="//hr" position="replace"/>
+            <xpath expr="//div[@name='partner_info']" position="replace">
+                <div name="partner_info" class="w-100 text-start mt-1 mb-2">
+                    <t t-if="partner">
+                        <div>Customer Name: <t t-out="partner.get('name')"/></div>
+                        <div t-if="partner.get('phone')">Customer Phone: <t t-out="partner.get('phone')"/></div>
+                        <div t-if="order.get('mobile')">Customer Mobile: <t t-out="order.get('mobile')"/></div>
+                    </t>
+                </div>
+            </xpath>
+            <xpath expr="//div[@name='tracking-number']" position="replace"/>
+            <xpath expr="//div[@name='pro_forma_receipt']" position="replace"/>
+            <xpath expr="//div[@t-if=&quot;config['receipt_header']&quot;]" position="replace"/>
+        </template>
+
+        <template id="pos_vision_lens.pos_orderline_receipt_simple" inherit_id="point_of_sale.pos_orderline_receipt_information">
+            <xpath expr="//span[@name='standard-unit-price']" position="replace"/>
+            <xpath expr="//span[@name='service-fee']" position="replace"/>
+            <xpath expr="//div[contains(@class, 'no-discount-price')]" position="replace"/>
+            <xpath expr="//div[@t-if=&quot;line['customer_note']&quot;]" position="replace"/>
+        </template>
+
+        <template id="pos_vision_lens.pos_order_receipt" inherit_id="point_of_sale.pos_order_receipt">
+            <xpath expr="//div[@t-if=&quot;conditions['use_self_invoicing'] and order['state'] != 'draft' and not conditions['basic_receipt']&quot;]" position="replace"/>
+            <xpath expr="//div[@t-if=&quot;extra_data.get('tips_configuration')&quot;]" position="replace"/>
+        </template>
+
+        <delete model="ir.ui.view" id="pos_order_receipt_style"/>
+
+        <template id="pos_vision_lens.pos_order_receipt_footer" inherit_id="point_of_sale.pos_order_receipt_footer">
+            <xpath expr="//t[@t-call='point_of_sale.company_info_receipt']" position="attributes">
+                <attribute name="t-if">False</attribute>
+            </xpath>
+            <xpath expr="//div[@t-if=&quot;config['receipt_footer']&quot;]" position="attributes">
+                <attribute name="t-if">False</attribute>
+            </xpath>
+            <xpath expr="//div[@name='footer_powered_by']" position="replace">
+                <div class="w-100 text-center mt-3 mb-2" name="thanks">
+                    Thank you for shopping with us.
+                </div>
+            </xpath>
+        </template>
+    </data>
+</odoo>

@@ -1,0 +1,72 @@
+.o_vision_kanban {
+    --KanbanRecord-width: 100%;
+}
+
+.o_vision_prescription_card {
+    background: #f4f8fc;
+    border: 1px solid #d5e4f0;
+    border-radius: 12px;
+    padding: 16px;
+}
+
+.o_vision_card_product {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.o_vision_card_footer {
+    display: grid;
+    gap: 12px;
+}
+
+.o_vision_card_eyes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+.o_vision_eye_box {
+    background: #fff;
+    border: 1px solid #d5e4f0;
+    border-radius: 12px;
+    padding: 12px;
+}
+
+.o_vision_card_footer {
+    grid-template-columns: 220px minmax(0, 1fr);
+    margin-top: 16px;
+    align-items: start;
+}
+
+.o_vision_eye_title {
+    color: #c62828;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #f0d5d5;
+}
+
+.o_vision_label {
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    color: #5c6b7a;
+    margin-bottom: 2px;
+}
+
+.o_vision_prescription_card .o_field_image img,
+.o_vision_prescription_card img {
+    max-height: 90px;
+    width: auto;
+    background: #fff;
+    border-radius: 6px;
+}
+
+@media (max-width: 768px) {
+    .o_vision_card_eyes,
+    .o_vision_card_footer {
+        grid-template-columns: 1fr;
+    }
+}

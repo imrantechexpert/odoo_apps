@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-name="pos_vision_lens.VisionPrescriptionPopup">
+        <Dialog size="'xl'" title="this.props.title" bodyClass="'o_vision_popup'">
+            <div class="o_vision_card">
+                <div class="o_vision_card_eyes">
+                    <div class="o_vision_eye_box">
+                        <div class="o_vision_eye_title">RIGHT EYE</div>
+                        <div class="o_vision_eye_grid">
+                            <div class="o_vision_field">
+                                <span>SPH</span>
+                                <div class="o_vision_stepper">
+                                    <button type="button" class="btn btn-secondary" t-on-click="() => this.stepValue('vision_right_sph', -1)">−</button>
+                                    <select class="form-select form-select-lg text-center" t-model.proxy="this.state.vision_right_sph">
+                                        <option value=""/>
+                                        <t t-foreach="this.valuesFor('sph', this.state.vision_right_sph)" t-as="option" t-key="option.id">
+                                            <option t-att-value="option.name" t-esc="option.name"/>
+                                        </t>
+                                    </select>
+                                    <button type="button" class="btn btn-secondary" t-on-click="() => this.stepValue('vision_right_sph', 1)">+</button>
+                                </div>
+                            </div>
+                            <div class="o_vision_field">
+                                <span>CYL</span>
+                                <div class="o_vision_stepper">
+                                    <button type="button" class="btn btn-secondary" t-on-click="() => this.stepValue('vision_right_cyl', -1)">−</button>
+                                    <select class="form-select form-select-lg text-center" t-model.proxy="this.state.vision_right_cyl">
+                                        <option value=""/>
+                                        <t t-foreach="this.valuesFor('cyl', this.state.vision_right_cyl)" t-as="option" t-key="option.id">
+                                            <option t-att-value="option.name" t-esc="option.name"/>
+                                        </t>
+                                    </select>
+                                    <button type="button" class="btn btn-secondary" t-on-click="() => this.stepValue('vision_right_cyl', 1)">+</button>
+                                </div>
+                            </div>
+                            <label class="o_vision_field" t-att-class="{'o_vision_axis_missing': this.axisMissing('right')}">
+                                <span>AXIS</span>
+                                <input class="form-control form-control-lg text-center" type="text" autocomplete="off" placeholder="25" t-model.proxy="this.state.vision_right_axis"/>
+                            </label>
+                            <div class="o_vision_field">
+                                <span>V.A.</span>
+                                <select class="form-select form-select-lg text-center" t-model.proxy="this.state.vision_right_va">
+                                    <option value=""/>
+                                    <t t-foreach="this.valuesFor('va', this.state.vision_right_va)" t-as="option" t-key="option.id">
+                                        <option t-att-value="option.name" t-esc="option.name"/>
+                                    </t>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="o_vision_eye_box">
+                        <div class="o_vision_eye_title">LEFT EYE</div>
+                        <div class="o_vision_eye_grid">
+                            <div class="o_vision_field">
+                                <span>SPH</span>
+                                <div class="o_vision_stepper">
+                                    <button type="button" class="btn btn-secondary" t-on-click="() => this.stepValue('vision_left_sph', -1)">−</button>
+                                    <select class="form-select form-select-lg text-center" t-model.proxy="this.state.vision_left_sph">
+                                        <option value=""/>
+                                        <t t-foreach="this.valuesFor('sph', this.state.vision_left_sph)" t-as="option" t-key="option.id">
+                                            <option t-att-value="option.name" t-esc="option.name"/>
+                                        </t>
+                                    </select>
+                                    <button type="button" class="btn btn-secondary" t-on-click="() => this.stepValue('vision_left_sph', 1)">+</button>
+                                </div>
+                            </div>
+                            <div class="o_vision_field">
+                                <span>CYL</span>
+                                <div class="o_vision_stepper">
+                                    <button type="button" class="btn btn-secondary" t-on-click="() => this.stepValue('vision_left_cyl', -1)">−</button>
+                                    <select class="form-select form-select-lg text-center" t-model.proxy="this.state.vision_left_cyl">
+                                        <option value=""/>
+                                        <t t-foreach="this.valuesFor('cyl', this.state.vision_left_cyl)" t-as="option" t-key="option.id">
+                                            <option t-att-value="option.name" t-esc="option.name"/>
+                                        </t>
+                                    </select>
+                                    <button type="button" class="btn btn-secondary" t-on-click="() => this.stepValue('vision_left_cyl', 1)">+</button>
+                                </div>
+                            </div>
+                            <label class="o_vision_field" t-att-class="{'o_vision_axis_missing': this.axisMissing('left')}">
+                                <span>AXIS</span>
+                                <input class="form-control form-control-lg text-center" type="text" autocomplete="off" placeholder="150" t-model.proxy="this.state.vision_left_axis"/>
+                            </label>
+                            <div class="o_vision_field">
+                                <span>V.A.</span>
+                                <select class="form-select form-select-lg text-center" t-model.proxy="this.state.vision_left_va">
+                                    <option value=""/>
+                                    <t t-foreach="this.valuesFor('va', this.state.vision_left_va)" t-as="option" t-key="option.id">
+                                        <option t-att-value="option.name" t-esc="option.name"/>
+                                    </t>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="o_vision_card_footer">
+                    <div class="o_vision_field">
+                        <span>Signature</span>
+                        <canvas class="o_vision_signature" t-ref="this.signatureRef"
+                            t-on-pointerdown.prevent="this.onPointerDown"
+                            t-on-pointermove="this.onPointerMove"
+                            t-on-pointerup="this.onPointerUp"
+                            t-on-pointercancel="this.onPointerUp"/>
+                        <button type="button" class="btn btn-link btn-sm px-0" t-on-click="this.clearSignature">Clear</button>
+                    </div>
+                    <label class="o_vision_field">
+                        <span>Advise</span>
+                        <textarea class="form-control" rows="4" t-model.proxy="this.state.vision_advise" placeholder="Advise"/>
+                    </label>
+                </div>
+            </div>
+            <t t-set-slot="footer">
+                <button class="btn btn-primary btn-lg" t-on-click="this.confirm">Apply</button>
+                <button class="btn btn-secondary btn-lg" t-on-click="this.close">Discard</button>
+            </t>
+        </Dialog>
+    </t>
+</templates>
