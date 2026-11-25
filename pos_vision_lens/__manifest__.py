@@ -1,19 +1,23 @@
 {
     'name': 'POS Vision Lens',
-    'version': '20.0.1.0.0',
+    'version': '20.0.1.0.1',
     'category': 'Sales/Point of Sale',
-    'summary': 'Eye prescription card on the Point of Sale for optical shops',
+    'summary': 'Optic and optics glasses for an eye clinic: vision prescription on the POS',
     'description': """
 Sell lenses from the Point of Sale with a proper prescription card.
 Right eye and left eye stay separate. SPH, CYL, and visual acuity are
 dropdowns you can edit. Axis, advise, and a drawn signature are saved
 on the order line and shown again on the POS order.
+
+For an optic shop, an optics counter, or an eye clinic. Glasses and
+vision prescriptions are taken on the POS.
+Keywords: optic, optics, glasses, vision, pos, eye, clinic, prescription.
     """,
     'author': 'Dynasol Technologies',
     'website': 'https://dynasol.pk',
     'license': 'LGPL-3',
     'images': [
-        'static/description/banner.png',
+        'static/description/banner.gif',
         'static/description/pos_card.png',
         'static/description/backend_order.png',
         'static/description/receipt.png',

@@ -19,7 +19,7 @@ Each folder is a standalone addon. Clone the **20.0** branch, add this repositor
 Sell a lens and a card opens. Frames and accessories stay normal. Only products marked **Vision Lens** open the card.
 
 <p align="center">
-  <img src="pos_vision_lens/static/description/banner.png" alt="POS Vision Lens" width="820"/>
+  <img src="pos_vision_lens/static/description/banner.gif" alt="POS Vision Lens" width="820"/>
 </p>
 
 - SPH from -20.00 to +20.00 and CYL from -6.00 to +6.00, in steps of 0.25, with minus and plus buttons.

@@ -4,6 +4,8 @@ Eye prescriptions on the Odoo 20 Point of Sale, for optical shops.
 
 Sell a lens and a card opens: right eye, left eye, advise, and a signature. The card is saved on that order line.
 
+Keywords: optic, optics, glasses, vision, pos, eye, clinic, prescription.
+
 ## What the shop gets
 
 - A **Vision Lens** tick on the product. Only those products open the card.
@@ -59,7 +61,7 @@ Then add the pictures below into `static/description/`. The store page already p
 | File | What to capture | Size |
 | --- | --- | --- |
 | `icon.png` | Square logo. A simple glasses or eye mark. No tiny words. | 256 × 256 |
-| `banner.png` | Wide cover. Module name and one short line, on a clean background. | about 1200 × 500 |
+| `banner.gif` | Wide cover. Module name and one short line, on a clean background. | about 1000 × 500 |
 | `pos_card.png` | The POS card with both eyes filled in, including the minus and plus buttons. | about 1200 px wide |
 | `prescription_values.png` | Prescription Values, grouped by type, showing SPH, CYL, and V.A. | about 1200 px wide |
 | `backend_order.png` | A POS order open on the Prescriptions page. | about 1200 px wide |
