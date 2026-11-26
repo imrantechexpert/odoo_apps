@@ -40,7 +40,7 @@ Depends on **Point of Sale**. Full notes: [pos_vision_lens/README.md](pos_vision
 A tap on an empty product, or on an empty variant, opens an out-of-stock window and leaves the ticket unchanged. Raising the quantity past what is left is blocked the same way.
 
 <p align="center">
-  <img src="pos_restrict_negative_sale/static/description/banner.png" alt="POS Restrict Negative Sale" width="820"/>
+  <img src="pos_restrict_negative_sale/static/description/banner.gif" alt="POS Restrict Negative Sale" width="820"/>
 </p>
 
 - Checks the variant, not the whole template. One size can sell while another size is blocked.

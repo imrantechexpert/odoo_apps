@@ -2,6 +2,8 @@
 
 Stop a Point of Sale ticket from selling stock you do not have. Odoo 20.
 
+Keywords: pos, point of sale, restrict, negative, negative sale, negative stock, out of stock, stock, inventory, warehouse, quantity, qty, variant, product, block, prevent, oversell, overselling, zero stock, available, on hand, barcode, shop, cashier.
+
 When the cashier taps a product, or confirms one of its variants, the shop’s free quantity is checked. If nothing is left, a window opens and the line is not added. The same window opens if the quantity on the line would pass what is left.
 
 Services and products that do not track inventory are not blocked. A refund is not blocked.
