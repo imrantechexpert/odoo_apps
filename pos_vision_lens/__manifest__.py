@@ -1,6 +1,6 @@
 {
     'name': 'POS Vision Lens',
-    'version': '20.0.1.0.2',
+    'version': '20.0.1.0.3',
     'category': 'Sales/Point of Sale',
     'summary': 'Optic and optics glasses for an eye clinic: vision prescription on the POS',
     'description': """
