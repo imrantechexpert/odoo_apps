@@ -1,6 +1,6 @@
 {
     'name': 'POS Restrict Negative Sale',
-    'version': '20.0.1.0.1',
+    'version': '20.0.1.0.2',
     'category': 'Sales/Point of Sale',
     'summary': 'Block POS negative stock, out of stock, and oversell on product variants and inventory',
     'description': """

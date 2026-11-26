@@ -60,7 +60,7 @@ Then add the pictures below into `static/description/`. The store page already p
 
 | File | What to capture | Size |
 | --- | --- | --- |
-| `icon.png` | Square logo. A simple glasses or eye mark. No tiny words. | 256 × 256 |
+| `icon.png` | Square Dynasol Technologies logo on a white background. | 256 × 256 |
 | `banner.gif` | Wide cover. Module name and one short line, on a clean background. | about 1000 × 500 |
 | `pos_card.png` | The POS card with both eyes filled in, including the minus and plus buttons. | about 1200 px wide |
 | `prescription_values.png` | Prescription Values, grouped by type, showing SPH, CYL, and V.A. | about 1200 px wide |
